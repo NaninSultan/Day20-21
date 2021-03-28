@@ -30,7 +30,7 @@ keys.forEach(key => {
                 textArea.selectionStart = output.length;
                 textArea.innerText += output.join("");
             } else if (e.target.value == "enter") {
-                rowCounter += textArea.cols + 1;
+                rowCounter += textArea.cols + 3;
                 for (let i = output.length; i < rowCounter; i++) {
                     output.push(" ");
                 }

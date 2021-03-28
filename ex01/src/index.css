@@ -37,11 +37,11 @@ textarea {
     gap: 2px ;
 }
 
-.container .keyboard .row button.backspace {
+.container .keyboard .row button.backSpace {
    width: 25%;
 }
 
-.container .keyboard .row button.capslock {
+.container .keyboard .row button.capsLock {
     width: 25%;
 } 
 
